@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #1e1e1e; 
+    color: #ddd; 
+    line-height: 1.6;
+}
+
+header {
+    background-color: #399c4f;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header .logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro-img {
+    max-width: 300px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.content-img {
+    display: block;
+    width: 100%;
+    max-width: 600px;            
+    height: 250px;               
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    object-fit: cover;           
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    padding: 1rem;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #328135;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #24533d; 
+    transform: scale(1.05);
+}
+
+section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #2a2a2a; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #eee;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+main, section {
+    flex: 1; 
+}
+
+footer {
+    background-color: #399c4f; 
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}

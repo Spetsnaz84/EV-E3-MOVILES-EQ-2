@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalación y uso de Android Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Instalación y uso de Android Studio</h1>
+    </header>
+
+    <main>
+        <section>
+            <img src="images/historia.png" alt="Instalación Android Studio" class="content-img">
+
+            <h2>Descarga e instalación</h2>
+            <p>
+                Para comenzar, descarga Android Studio desde el sitio oficial de <strong>Android Developers</strong>. 
+                Ejecuta el instalador y sigue el asistente de instalación, seleccionando los componentes recomendados: 
+                SDK de Android, emulador y herramientas adicionales.
+            </p>
+            <p>
+                Durante la instalación puedes definir la ruta de instalación y configurar las opciones iniciales. 
+                Al abrir Android Studio por primera vez, se descargarán las dependencias necesarias para tu entorno.
+            </p>
+        </section>
+
+        <section>
+            <h2>Creación de un proyecto</h2>
+            <p>
+                Una vez instalado, puedes crear tu primer proyecto desde <em>File → New → New Project</em>. 
+                Selecciona el tipo de aplicación, el lenguaje de programación (<strong>Kotlin</strong> recomendado, también soporta <strong>Java</strong>) 
+                y la versión mínima de Android que deseas soportar.
+            </p>
+        </section>
+
+        <section>
+            <h2>Estructura básica del proyecto</h2>
+            <p>
+                Android Studio organiza los proyectos en módulos, siendo el más común el módulo <em>app</em>. 
+                Dentro de este módulo encontrarás:
+            </p>
+            <ul>
+                <li><strong>Manifests:</strong> archivo AndroidManifest.xml con permisos, actividades y servicios.</li>
+                <li><strong>Java/Kotlin:</strong> código fuente principal y pruebas.</li>
+                <li><strong>Resources (res/):</strong> layouts, imágenes, íconos y valores como textos y colores.</li>
+                <li><strong>Gradle Scripts:</strong> configuración de dependencias, versiones y compilación.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ejecutar y probar la aplicación</h2>
+            <p>
+                Android Studio incluye un <strong>emulador</strong> que permite probar tu aplicación en diferentes dispositivos virtuales. 
+                También puedes conectar un dispositivo físico mediante USB para ejecutar la app directamente.
+            </p>
+            <p>
+                Las herramientas de depuración permiten seguir el flujo de tu código, establecer puntos de interrupción y 
+                corregir errores rápidamente. Además, con <strong>Android Profiler</strong> puedes monitorear el rendimiento 
+                en tiempo real (CPU, memoria y batería).
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>EVIDENCIA ETAPA 3 - Desarrollo de Aplicaciones Móviles</p>
+    </footer>
+</body>
+</html>
+
